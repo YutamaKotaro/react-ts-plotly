@@ -1,5 +1,7 @@
+// @dependency-relation: allow: ./index.tsx
 import React from 'react';
 import logo from './logo.svg';
+import {PP} from './PP'
 import './App.css';
 
 function App() {
@@ -10,6 +12,7 @@ function App() {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
+        <PP />
         <a
           className="App-link"
           href="https://reactjs.org"
